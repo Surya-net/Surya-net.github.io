@@ -19,6 +19,7 @@
       align-items: center;
       background: #f4f4f4;
       color: #222;
+      flex-direction: column;
     }
 
     .card {
@@ -52,13 +53,25 @@
     }
 
     .footer {
-      position: fixed;
-      bottom: 15px;
-      left: 50%;
-      transform: translateX(-50%);
+      margin-top: 20px;
       font-size: 0.85rem;
       color: #666;
       font-style: italic;
+      text-align: center;
+    }
+
+    .footer a {
+      text-decoration: none;
+      color: #333;
+      font-weight: 600;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .footer img {
+      width: 18px;
+      height: 18px;
     }
 
     @media (max-width: 600px) {
@@ -82,6 +95,11 @@
     I appreciate your time for visiting!</p>
   </div>
 
-  <div class="footer">powered by GitHub · © all rights reserved by Surya</div>
+  <div class="footer">
+    powered by GitHub · © all rights reserved by Surya <br>
+    <a href="#">
+      Follow me on <img src="logo/github.png" alt="GitHub logo"> GitHub
+    </a>
+  </div>
 </body>
 </html>

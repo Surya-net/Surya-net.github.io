@@ -1,2 +1,1 @@
-# SURYA_singha
-This this repository was made by suryalal singha.
+# This repo is just for my website configuration
